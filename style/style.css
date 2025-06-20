@@ -5,6 +5,9 @@
     font-family: Arial;
 }
 
+.body{
+    font-family: 'Roboto' , sans-serif;
+}
 .container {
     max-width: 1140px;
     width: 100%;
@@ -15,3 +18,24 @@
 header {
     background: #F2CEDA;
 }   
+
+.intro_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro_auxiliary{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 10%;
+    margin-bottom: 6px;
+}
+
+.intro_title{
+    font-family: Fredoka One;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 121%;
+}
