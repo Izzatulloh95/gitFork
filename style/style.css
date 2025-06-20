@@ -7,6 +7,9 @@
     font-family: Arial;
 }
 
+.body{
+    font-family: 'Roboto' , sans-serif;
+}
 .container {
     max-width: 1140px;
     width: 100%;
@@ -55,3 +58,49 @@ header {
     border-radius: 5px;
     cursor: pointer;
 }
+}   
+
+.intro_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro_auxiliary{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 10%;
+    margin-bottom: 6px;
+}
+
+.intro_title{
+    font-family: Fredoka One;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 121%;
+}
+}
+.icecream_div{
+display: flex;    
+}
+.sarlavha{
+color: #150101; 
+width: 349px;   
+font-family: "Hind Madurai";
+font-weight: 600;
+font-size: 44.2px;
+}
+.matn{
+color: #150101;
+font-family: "Roboto";
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}  
+.btn{
+background-color: #D64374;   
+width: 165px;
+height: 49.13494873046875px;
+border-radius: 5px;
+} 
