@@ -14,4 +14,27 @@
 
 header {
     background: #F2CEDA;
-}   
+}
+.icecream_div{
+display: flex;    
+}
+.sarlavha{
+color: #150101; 
+width: 349px;   
+font-family: "Hind Madurai";
+font-weight: 600;
+font-size: 44.2px;
+}
+.matn{
+color: #150101;
+font-family: "Roboto";
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}  
+.btn{
+background-color: #D64374;   
+width: 165px;
+height: 49.13494873046875px;
+border-radius: 5px;
+} 
