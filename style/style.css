@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -14,4 +16,42 @@
 
 header {
     background: #F2CEDA;
+}
+.nav_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }   
+.nav_link{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-left: 266px;
+    margin-right: 172px;
+}
+.nav_link_text{
+    text-decoration: none;
+    color: #150101;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    transition: 0.5s;
+}
+.nav_link_text:hover{
+    color: #D23166;
+}
+.nav_btn{
+    color: #fff;
+    width: 165px;
+    height: 49px;
+    font-family: "Hind Madurai";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    background-color: #D23166;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
